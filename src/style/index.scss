@@ -1,0 +1,13 @@
+@import "normalize";
+@import "variables";
+
+//基础样式
+.el-button{
+  background: $themeColor;
+  color: $btnTextColor;
+  border-radius: $btnBorderRadius;
+  &:hover{
+    background: $themeColor;
+    color: $btnTextColor;
+  }
+}
