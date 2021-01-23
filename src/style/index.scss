@@ -2,6 +2,7 @@
 @import "variables";
 
 //基础样式
+//普通按钮
 .el-button{
   background: $themeColor;
   color: $btnTextColor;
@@ -10,4 +11,10 @@
     background: $themeColor;
     color: $btnTextColor;
   }
+}
+
+//圆角按钮
+.el-button.is-round{
+  border: 2px solid #ffffff;
+  border-radius: 23px;
 }

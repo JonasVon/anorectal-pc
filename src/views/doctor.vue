@@ -1,14 +1,12 @@
 <template>
-  <div>
-    <el-input></el-input>
-  </div>
+  <div>doctor</div>
 </template>
 
 <script>
 export default {
   data() {
     return {}
-  },
+  }
 }
 </script>
 
